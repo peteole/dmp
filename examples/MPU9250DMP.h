@@ -1,12 +1,12 @@
 // file for motion procession for artificial horizon and conpass
 #define MPU9250_SENSOR
-#ifndef MPU9259DMP_H
+#ifndef MPU9250DMP_H
 #define MPU9250DMP_H
 #include "dmp.h"
-#include "Arduino.h"
 #include "Wire.h"
-
 #include "MPU9250.h"
+
+
 class MPU9250DMP : public DMP
 {
 public:
